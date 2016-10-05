@@ -1,4 +1,4 @@
-name := """rest"""
+name := """scala"""
 
 version := "1.0-SNAPSHOT"
 
@@ -9,9 +9,8 @@ scalaVersion := "2.11.8"
 libraryDependencies ++= Seq(
   cache,
   ws,
-  "mysql" % "mysql-connector-java" % "5.1.34",
-  "com.typesafe.play" %% "play-slick" % "1.1.0",
+  "com.typesafe.play" % "play-slick_2.11" % "2.0.2",
+  "org.postgresql" % "postgresql" % "9.3-1100-jdbc4",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
-
 
